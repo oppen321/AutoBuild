@@ -520,7 +520,7 @@ Source_Clone() {
 					read -p "是否启用 [Ghproxy] 镜像加速?[Y/n]:" if_Ghproxy
 					case ${if_Ghproxy} in
 					[Yy])
-						Github_URL="https://ghproxy.com/${Github_URL}"
+						Github_URL="https://ghp.ci/${Github_URL}"
 					;;
 					esac
 				fi
